@@ -342,47 +342,52 @@ def scroll_and_click(driver, by, value, click=False):
 
 def process_email(email, driver):
     global MATCHES_TABLE
+    
     while True:
         try:
-            time.sleep(1)
-            driver.get('https://www.cricketworldcup.com/register')
-            scroll_and_click(driver, By.CSS_SELECTOR, 'div[class="cookie-notice__button btn js-cookie-btn"]', click=True)
-            iframe = driver.find_element(By.CSS_SELECTOR, 'iframe[class="_lpSurveyEmbed"]')
-            break
-        except: continue
-    while True:
-        try:
-            iframe = scroll_and_click(driver, By.CSS_SELECTOR, 'iframe[class="_lpSurveyEmbed"]')
+            while True:
+                try:
+                    time.sleep(1)
+                    driver.get('https://www.cricketworldcup.com/register')
+                    driver.find_element(By.CSS_SELECTOR, 'div[class="cookie-notice__button btn js-cookie-btn"]').click()
+                    break
+                except: continue
+            iframe = WebDriverWait(driver, timeout=10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'iframe[class="_lpSurveyEmbed"]'))
+            )
             driver.switch_to.frame(iframe)
-            name = scroll_and_click(driver, By.CSS_SELECTOR, 'input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]')
+            name = driver.find_element(By.CSS_SELECTOR,'input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]')
             name.send_keys('John')
-            email_input = scroll_and_click(driver, By.CSS_SELECTOR, 'input[class="ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required"]')
+            email_input = driver.find_element(By.CSS_SELECTOR, 'input[class="ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required"]')
+            email_input.click()
             email_input.send_keys(email)
-            mm = scroll_and_click(driver, By.CSS_SELECTOR, 'input[ng-model="datetime.month"]')
+            mm = driver.find_element(By.CSS_SELECTOR, 'input[ng-model="datetime.month"]')
+            mm.click()
             mm.send_keys('01')
-            dd = scroll_and_click(driver, By.CSS_SELECTOR, 'input[ng-model="datetime.day"]')
+            dd = driver.find_element(By.CSS_SELECTOR, 'input[ng-model="datetime.day"]')
+            dd.click()
             dd.send_keys('01')
-            yyyy = scroll_and_click(driver, By.CSS_SELECTOR, 'input[ng-model="datetime.year"]')
+            yyyy = driver.find_element(By.CSS_SELECTOR, 'input[ng-model="datetime.year"]')
+            yyyy.click()
             yyyy.send_keys('1999')
-            select_element = scroll_and_click(driver, By.CSS_SELECTOR, '#dropdown-8')
+            select_element = driver.find_element(By.CSS_SELECTOR, '#dropdown-8')
             dropdown = Select(select_element)
             random_index = random.randint(1, 248)
             dropdown.select_by_index(random_index)
             random_team = random.choice(list(MATCHES_TABLE.keys()))
             for city in MATCHES_TABLE[random_team]:
-                scroll_and_click(driver, By.XPATH, f"//font[contains(text(), '{city}')]", click=True)
-            scroll_and_click(driver, By.XPATH, f"//font[contains(text(), '{random_team}')]", click=True)
+                driver.find_element(By.XPATH, f"//font[contains(text(), '{city}')]").click()
+            driver.find_element(By.XPATH, f"//font[contains(text(), '{random_team}')]").click()
 
-            scroll_and_click(driver, By.CSS_SELECTOR, '#consent-15', click=True)
-            scroll_and_click(driver, By.CSS_SELECTOR, '#consent-18', click=True)
-            scroll_and_click(driver, By.CSS_SELECTOR, '#consent-16', click=True)
+            driver.find_element(By.CSS_SELECTOR, '#consent-15').click()
+            driver.find_element(By.CSS_SELECTOR, '#consent-18').click()
+            driver.find_element(By.CSS_SELECTOR, '#consent-16').click()
             driver.find_element(By.CSS_SELECTOR, 'input[type="submit"][class="paging-button-submit"]').click()
-            if check_for_captcha(driver): 
-                driver.refresh()
-                continue
+            if check_for_captcha(driver): continue
             if WebDriverWait(driver, timeout=10).until(EC.url_changes(driver.current_url)): break
             else: continue
         except Exception as e:
+            print_colored('ERROR', Fore.RED, 'An unexpeted error occured.')
             write_error_to_file(e)
 
 
