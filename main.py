@@ -320,7 +320,7 @@ def check_for_captcha(driver):
 
 
 def print_colored(text, color, rest):
-    print(f"{color}[{text}] {Fore.YELLOW}{rest}")
+    print(f"{color}[{time.strftime('%H:%M:%S')}]{color}[{text}] {Fore.YELLOW}{rest}")
 
 
 def scroll_and_click(driver, by, value, click=False):
@@ -401,4 +401,4 @@ if __name__ == "__main__":
             process_email(email, driver)
             # update_processed_status(status)
             print_colored('DONE', Fore.BLUE, email)
-    print('SUCCESS', Fore.BLUE, 'All emails were processed')
+    print_colored('SUCCESS', Fore.BLUE, 'All emails were processed')
