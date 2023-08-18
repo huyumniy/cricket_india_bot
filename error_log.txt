@@ -389,3 +389,36 @@ Backtrace:
 	RtlGetAppContainerNamedObjectPath [0x775B77AD+237]
 	RtlGetAppContainerNamedObjectPath [0x775B777D+189]
 
+2023-08-18 04:03:23: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=115.0.5790.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x010DA813+48355]
+	(No symbol) [0x0106C4B1]
+	(No symbol) [0x00F75358]
+	(No symbol) [0x00FA09A5]
+	(No symbol) [0x00FA0B3B]
+	(No symbol) [0x00FCE232]
+	(No symbol) [0x00FBA784]
+	(No symbol) [0x00FCC922]
+	(No symbol) [0x00FBA536]
+	(No symbol) [0x00F982DC]
+	(No symbol) [0x00F993DD]
+	GetHandleVerifier [0x0133AABD+2539405]
+	GetHandleVerifier [0x0137A78F+2800735]
+	GetHandleVerifier [0x0137456C+2775612]
+	GetHandleVerifier [0x011651E0+616112]
+	(No symbol) [0x01075F8C]
+	(No symbol) [0x01072328]
+	(No symbol) [0x0107240B]
+	(No symbol) [0x01064FF7]
+	BaseThreadInitThunk [0x774805C9+25]
+	RtlGetAppContainerNamedObjectPath [0x775B77AD+237]
+	RtlGetAppContainerNamedObjectPath [0x775B777D+189]
+
+2023-08-18 04:05:00: Message: 
+
+2023-08-18 04:10:15: Message: 
+
+2023-08-18 04:12:43: Message: 
+

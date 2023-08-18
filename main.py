@@ -401,4 +401,4 @@ if __name__ == "__main__":
             process_email(email, driver)
             # update_processed_status(status)
             print_colored('DONE', Fore.BLUE, email)
-    print_colored('SUCCESS', Fore.BLUE, 'All emails were processed')
+    print_colored('SUCCESS', Fore.GREEN, 'All emails were processed!')
