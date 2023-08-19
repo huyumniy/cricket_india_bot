@@ -226,9 +226,9 @@ def selenium_connect():
 
     # Create the WebDriver with the configured ChromeOptions
     driver = webdriver.Chrome(
+        driver_executable_path="D:\projects\cricket_india_bot\chromedriver.exe",
         options=options,
         enable_cdp_events=True,
-        
     )
 
     screen_width, screen_height = driver.execute_script(
