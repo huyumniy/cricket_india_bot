@@ -6,6 +6,7 @@ import gspread
 import shutil
 from colorama import init, Fore
 import time
+import threading
 from selenium.webdriver.common.by import By
 import undetected_chromedriver as webdriver
 from selenium.webdriver.support.ui import Select
@@ -412,14 +413,43 @@ def process_email(email, driver):
             write_error_to_file(e)
 
 
-if __name__ == "__main__":
-    data = get_data_from_google_sheets()
+def process_emails_range(emails_range):
+    global data
     driver = selenium_connect()
-    for row_index, row in enumerate(data, start=2):
+    for index in emails_range:
+        row = data[index]
         status = row[0]
         if "done" not in status.lower():
             email = row[1]
+            print(index, row)
             process_email(email, driver)
-            update_processed_status(row_index)
+            update_processed_status(index+2)
             print_colored('DONE', Fore.BLUE, email)
+    print_colored('SUCCESS', Fore.GREEN, f'Emails [{emails_range[0]}]/[{emails_range[-1]}] are processed!')
+
+
+def divide_and_process_emails(data, num_threads):
+    total_emails = len(data)
+    emails_per_thread = total_emails // num_threads
+
+    thread_list = []
+    for i in range(num_threads):
+        start_index = i * emails_per_thread
+        end_index = start_index + emails_per_thread
+        if i == num_threads - 1:
+            end_index = total_emails  # Include any remaining emails in the last thread
+
+        emails_range = range(start_index, end_index)
+        thread = threading.Thread(target=process_emails_range, args=(emails_range,))
+        thread_list.append(thread)
+        thread.start()
+
+    for thread in thread_list:
+        thread.join()
+
+
+if __name__ == "__main__":
+    data = get_data_from_google_sheets()
+    num_threads = 4  # You can adjust the number of threads as needed
+    divide_and_process_emails(data, num_threads)
     print_colored('SUCCESS', Fore.GREEN, 'All emails were processed!')
