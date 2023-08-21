@@ -289,7 +289,7 @@ def write_error_to_file(error_message):
         file.write(f'{timestamp}: {error_message}\n')
 
 
-def update_processed_status(cell):
+def update_processed_status(row_index):
     creds = None
     if os.path.exists("token.json"):
         creds = Credentials.from_authorized_user_file("token.json", SCOPES)
@@ -306,7 +306,28 @@ def update_processed_status(cell):
     client = gspread.authorize(creds)
     sheet = client.open_by_key(SPREADSHEET_ID).worksheet("main")  # Use the appropriate sheet index or title
 
-    sheet.update(cell, 'Done')
+    # Update the status text
+    sheet.update(f'A{row_index}', 'Done')
+
+    # Update the status cell's text color to red
+    cell_format = {
+        "textFormat": {
+            "foregroundColor": {
+                "red": 0,
+                "green": 1,
+                "blue": 0
+            }
+        }
+    }
+    sheet.format(f'A{row_index}', cell_format)
+    cell_color = {
+        "backgroundColor": {
+            "red": 0,
+            "green": 1,
+            "blue": 0
+        }
+    }
+    sheet.format(f'A{row_index}', cell_color)
 
 
 def check_for_captcha(driver):
@@ -394,11 +415,11 @@ def process_email(email, driver):
 if __name__ == "__main__":
     data = get_data_from_google_sheets()
     driver = selenium_connect()
-    for row in data:
+    for row_index, row in enumerate(data, start=2):
         status = row[0]
         if "done" not in status.lower():
             email = row[1]
             process_email(email, driver)
-            # update_processed_status(status)
+            update_processed_status(row_index)
             print_colored('DONE', Fore.BLUE, email)
     print_colored('SUCCESS', Fore.GREEN, 'All emails were processed!')
