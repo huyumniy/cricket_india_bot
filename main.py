@@ -227,7 +227,7 @@ def selenium_connect():
 
     # Create the WebDriver with the configured ChromeOptions
     driver = webdriver.Chrome(
-        driver_executable_path="D:\projects\cricket_india_bot\chromedriver.exe",
+        driver_executable_path="D:\projects\cricket_india_bot_v1.2\chromedriver.exe",
         options=options,
         enable_cdp_events=True,
     )
@@ -291,44 +291,48 @@ def write_error_to_file(error_message):
 
 
 def update_processed_status(row_index):
-    creds = None
-    if os.path.exists("token.json"):
-        creds = Credentials.from_authorized_user_file("token.json", SCOPES)
+    try:
+        creds = None
+        if os.path.exists("token.json"):
+            creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
-            creds = flow.run_local_server(port=0)
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+            else:
+                flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
+                creds = flow.run_local_server(port=0)
 
-        with open("token.json", "w") as token:
-            token.write(creds.to_json())
-    client = gspread.authorize(creds)
-    sheet = client.open_by_key(SPREADSHEET_ID).worksheet("main")  # Use the appropriate sheet index or title
+            with open("token.json", "w") as token:
+                token.write(creds.to_json())
+        client = gspread.authorize(creds)
+        sheet = client.open_by_key(SPREADSHEET_ID).worksheet("main")  # Use the appropriate sheet index or title
 
-    # Update the status text
-    sheet.update(f'A{row_index}', 'Done')
+        # Update the status text
+        sheet.update(f'A{row_index}', 'Done')
 
-    # Update the status cell's text color to red
-    cell_format = {
-        "textFormat": {
-            "foregroundColor": {
+        # Update the status cell's text color to red
+        cell_format = {
+            "textFormat": {
+                "foregroundColor": {
+                    "red": 0,
+                    "green": 1,
+                    "blue": 0
+                }
+            }
+        }
+        sheet.format(f'A{row_index}', cell_format)
+        cell_color = {
+            "backgroundColor": {
                 "red": 0,
                 "green": 1,
                 "blue": 0
             }
         }
-    }
-    sheet.format(f'A{row_index}', cell_format)
-    cell_color = {
-        "backgroundColor": {
-            "red": 0,
-            "green": 1,
-            "blue": 0
-        }
-    }
-    sheet.format(f'A{row_index}', cell_color)
+        sheet.format(f'A{row_index}', cell_color)
+    except Exception as e:
+        write_error_to_file(e)
+
 
 
 def check_for_captcha(driver):
@@ -421,7 +425,6 @@ def process_emails_range(emails_range):
         status = row[0]
         if "done" not in status.lower():
             email = row[1]
-            print(index, row)
             process_email(email, driver)
             update_processed_status(index+2)
             print_colored('DONE', Fore.BLUE, email)
@@ -449,7 +452,8 @@ def divide_and_process_emails(data, num_threads):
 
 
 if __name__ == "__main__":
+    browsers_amount = int(input("Amount of browsers: "))
     data = get_data_from_google_sheets()
-    num_threads = 4  # You can adjust the number of threads as needed
+    num_threads = browsers_amount
     divide_and_process_emails(data, num_threads)
     print_colored('SUCCESS', Fore.GREEN, 'All emails were processed!')

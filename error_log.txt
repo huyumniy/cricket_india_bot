@@ -2650,3 +2650,933 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFF71397AC4+20]
 	RtlUserThreadStart [0x00007FFF7372A351+33]
 
+2023-08-22 01:16:56: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:17:47: Message: 
+
+2023-08-22 01:19:06: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:19:09: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:19:30: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:20:31: Message: 
+
+2023-08-22 01:21:39: Message: 
+
+2023-08-22 01:21:56: Message: 
+
+2023-08-22 01:22:25: Message: 
+
+2023-08-22 01:22:47: Message: 
+
+2023-08-22 01:23:30: Message: 
+
+2023-08-22 01:24:13: Message: 
+
+2023-08-22 01:24:24: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:25:29: Message: 
+
+2023-08-22 01:26:12: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:26:54: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:27:40: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:27:59: Message: 
+
+2023-08-22 01:30:40: Message: 
+
+2023-08-22 01:31:19: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:31:56: Message: 
+
+2023-08-22 01:33:16: Message: 
+
+2023-08-22 01:33:50: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:33:55: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:35:29: Message: 
+
+2023-08-22 01:35:44: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:37:33: Message: 
+
+2023-08-22 01:38:13: Message: 
+
+2023-08-22 01:38:17: Message: 
+
+2023-08-22 01:38:44: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:38:48: Message: 
+
+2023-08-22 01:39:10: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:39:19: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:40:56: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:41:25: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:42:50: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:44:56: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:45:03: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:45:07: Message: 
+
+2023-08-22 01:45:11: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:45:57: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:46:02: Message: 
+
+2023-08-22 01:46:04: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:46:07: Message: 
+
+2023-08-22 01:47:20: Message: 
+
+2023-08-22 01:47:24: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:47:29: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:48:31: Message: 
+
+2023-08-22 01:49:31: Message: 
+
+2023-08-22 01:49:58: Message: 
+
+2023-08-22 01:49:58: Message: 
+
+2023-08-22 01:50:43: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:53:36: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:54:14: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:55:55: Message: 
+
+2023-08-22 01:56:25: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DE6E1B9]
+	(No symbol) [0x00007FF73DEEB417]
+	(No symbol) [0x00007FF73DEFE24F]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 01:56:27: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DE6E1B9]
+	(No symbol) [0x00007FF73DEEB417]
+	(No symbol) [0x00007FF73DEFE24F]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 02:03:28: Message: 
+
+2023-08-22 02:10:37: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 02:11:49: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 02:12:38: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2023-08-22 02:18:23: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 02:18:28: Message: 
+
+2023-08-22 02:18:39: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
+2023-08-22 02:18:45: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"]"}
+  (Session info: chrome=116.0.5845.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E0452A2+57122]
+	(No symbol) [0x00007FF73DFBEA92]
+	(No symbol) [0x00007FF73DE8E3AB]
+	(No symbol) [0x00007FF73DEC7D3E]
+	(No symbol) [0x00007FF73DEC7E2C]
+	(No symbol) [0x00007FF73DF00B67]
+	(No symbol) [0x00007FF73DEE701F]
+	(No symbol) [0x00007FF73DEFEB82]
+	(No symbol) [0x00007FF73DEE6DB3]
+	(No symbol) [0x00007FF73DEBD2B1]
+	(No symbol) [0x00007FF73DEBE494]
+	GetHandleVerifier [0x00007FF73E2EEF82+2849794]
+	GetHandleVerifier [0x00007FF73E341D24+3189156]
+	GetHandleVerifier [0x00007FF73E33ACAF+3160367]
+	GetHandleVerifier [0x00007FF73E0D6D06+653702]
+	(No symbol) [0x00007FF73DFCA208]
+	(No symbol) [0x00007FF73DFC62C4]
+	(No symbol) [0x00007FF73DFC63F6]
+	(No symbol) [0x00007FF73DFB67A3]
+	BaseThreadInitThunk [0x00007FFF71397AC4+20]
+	RtlUserThreadStart [0x00007FFF7372A351+33]
+
